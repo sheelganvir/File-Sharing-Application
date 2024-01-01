@@ -19,63 +19,52 @@ img {
 }
 
 .wrapper{
-  background-color: aliceblue;
+  background-color: #08003a;
   width: 50%;
   height: 40%;
   margin: auto;
   display: flex;
   align-items: center;
   flex-direction: column;
+  color: #fff;
 }
 
+.wrapper h1{
+  font-size: xx-large;
+}
+
+.wrapper p{
+  color: #F99417;
+  margin-bottom: 20px;
+}
+
+
 button {
-  width: 150px;
-  height: 35px;
+  width: 240px;
+  height: 80px;
   margin-top: 25px;
   background-color: #F99417;
-  border-radius: 8px;
+  border-radius: 10px;
   color: #08003a;
   text-decoration: none;
   border: 2px solid #212121;
   text-align: center;
   font-size: 25px;
-}
-
-.btn {
-  border: 0px solid #fff;
-  min-width: 200px;
-  min-height: 40px;
-  position: relative;
   cursor: pointer;
-  letter-spacing: 2px;
-  position: relative;
-  transition: background-color 0.1s linear 0.1s;
-  align-items: center;
-  padding: 5px 2px;
-  font-size: x-large;
-  margin-bottom: 5px;
   font-weight: 600;
 }
 
-.btn-300::after {
-  content: "";
-  display: block;
-  box-shadow: 0 0 0 1px #363062;
-  background: none;
-  position: absolute;
-  inset: 0;
-  transition: scale() 100ms linear 0.3s;
-  border-radius: 8px;
-}
-
-.btn-300:hover::after {
-  opacity: 0;
-}
-
-.btn-300:hover {
-  background-color: #F99417;
+button:hover {
+  background-color: #078EA9;
+  color: #fff;
   
 }
+
+a{
+  margin-top: 20px;
+  color: #fff;
+}
+
 
 footer {
 color: #fff;
